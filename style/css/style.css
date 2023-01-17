@@ -114,9 +114,41 @@ input {
     font-size: 1.8rem;
     border: none;
     box-shadow: 0 0.4rem 1.4rem 0 rgb(51, 143, 182);
+    background-color: rgb(236, 225, 225);
 }
 
 input::placeholder {
+    color: #2a2b2c;
+    text-align: center;
+}
+
+input.input2 {
+    margin-bottom: 2rem;
+    width: 40rem;
+    height: 6rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(51, 143, 182);
+    background-color: rgb(236, 225, 225);
+}
+
+input.input2::placeholder {
+    color: #2a2b2c;
+    text-align: center;
+}
+
+input.input3 {
+    margin-bottom: 5rem;
+    width: 20rem;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border: none;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(51, 143, 182);
+    background-color: rgb(236, 225, 225);
+}
+
+input.input3::placeholder {
     color: #2a2b2c;
     text-align: center;
 }
